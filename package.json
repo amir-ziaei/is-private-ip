@@ -1,34 +1,17 @@
 {
   "name": "is-private-ip",
-  "version": "1.0.0",
-  "description": "A serverless function that tells you whether the given IP is private.",
-  "main": "netlify/functions/index.js",
-  "keywords": [
-    "serverless",
-    "function",
-    "ip",
-    "private",
-    "v4",
-    "netlify",
-    "v6"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/amir-ziaei/is-private-ip.git"
-  },
-  "author": "Amir Ziaei <amir@amirziaei.me> (https://amirziaei.me)",
-  "license": "MIT",
-  "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "netlify dev",
-    "build": "netlify build"
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
   },
   "dependencies": {
-    "@netlify/functions": "^1.6.0",
     "private-ip": "^3.0.0"
   },
   "devDependencies": {
-    "netlify-cli": "^15.8.0",
-    "typescript": "^5.1.6"
+    "@cloudflare/workers-types": "^4.20230419.0",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
   }
 }
