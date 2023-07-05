@@ -2,7 +2,7 @@
   "name": "is-private-ip",
   "version": "1.0.0",
   "private": true,
-  "description": "A cloudflare worker that tells you whether the given IP is private.",
+  "description": "A Cloudflare Worker that tells you whether the given IP is private.",
   "keywords": [
     "local",
     "ip",
