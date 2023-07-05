@@ -1,7 +1,22 @@
 {
   "name": "is-private-ip",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "A cloudflare worker that tells you whether the given IP is private.",
+  "keywords": [
+    "local",
+    "ip",
+    "private",
+    "v4",
+    "v6",
+    "cloudflare-workers"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amir-ziaei/is-private-ip.git"
+  },
+  "author": "Amir Ziaei <amir@amirziaei.me> (https://amirziaei.me)",
+  "license": "MIT",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev"
